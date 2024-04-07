@@ -3,3 +3,5 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("i", "jk", "<Esc>")
+vim.keymap.set("n", "<leader>gq", "<cmd>BufferLinePickClose<cr>")
+vim.keymap.set("n", "<leader>gh", "<cmd>BufferLinePick<cr>")
